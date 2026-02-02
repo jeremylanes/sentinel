@@ -1,6 +1,10 @@
 [package]
 name = "sentinel"
 version = "0.1.0"
+authors = ["Jeremy Lane <jeremy@tune.cd>"]
 edition = "2024"
 
 [dependencies]
+notify = "8.2.0"
+serde = { version = "1.0.228", features = ["derive"] }
+toml = "0.9.11"
